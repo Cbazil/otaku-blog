@@ -6,26 +6,47 @@
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <style>
         body { padding-top:15px; background-color: #ccc;}
         img { width: 100%;}
         #banner-image {
             margin-top: -20px;
             width: 100%;
-            height: 40em;
-            background-image: url('https://i.imgur.com/QYaf4F1.jpg');
+            height: 110vh;
+            background-image: url('https://i.imgur.com/8z7iaMO.jpg');
             background-repeat: no-repeat;
             /* background-position: center; */
             background-size: cover;
             /* margin: 0; */
         }
         #banner-image > img {
-            width: 100%;
-            height: inherit;
+            width: 100% !important;
+            height: 100% !important;
             object-fit: contain;
             margin: 0;
             display: block;
+        }
+        #intro_landing {
+            position: relative;
+            display: flex;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 85%;
+            padding: 20px;
+            background-color: black;
+            opacity: .4;
+            text-align: center;
+        }
+        #intro_landing > h2 {
+            font-size: 2em;
+        }
+        #intro_landing > p{
+            font-size: 1em;
         }
     </style>
 </head>
@@ -34,7 +55,10 @@
     <header>
         <%- include('partials/navbar') %>
         <div id="banner-image">
-            
+            <div id="intro_landing">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quidem!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem veritatis obcaecati atque. Quae laudantium tenetur labore reiciendis cupiditate eius nobis ut ipsam excepturi quis.</p>
+            </div>
         </div>
     </header>
     <div class="container">
@@ -87,6 +111,7 @@
             </div>
         </div>
     </div>
+    <%- include('partials/log-on.ejs') %>
 
 </body>
 </html>
