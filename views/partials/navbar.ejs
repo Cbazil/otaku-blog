@@ -1,17 +1,98 @@
 <!-- views/partials/navbar.ejs -->
-<div class="header clearfix">
+<!-- <div class="header clearfix">
     <nav class="nav">
         <ul class="pull-right">
             <li role="presentation" class="navItem"><a href="/">Home</a></li>
             <li role="presentation" class="navItem"><a href="/">Create</a></li>
-            <li role="presentation" class="navItem"><a href="/">Archieve</a></li>
+            <li role="presentation" class="navItem"><a href="/">Archieve</a></li> -->
             <!-- <li role="presentation"><a href="/">Home</a></li> -->
-        </ul>
+        <!-- </ul>
     </nav>
-</div>
+</div> -->
+<head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
+</head>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://bulma.io">
+
+          </a>
+      
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item">
+              Home
+            </a>
+      
+            <a class="navbar-item">
+              Documentation
+            </a>
+      
+            <!-- <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                More
+              </a>
+      
+              <div class="navbar-dropdown"> -->
+                <!-- <a class="navbar-item">
+                  About
+                </a>
+                <a class="navbar-item">
+                  Jobs
+                </a>
+                <a class="navbar-item">
+                  Contact
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item">
+                  Report an issue
+                </a> -->
+                    <div class="navbar-item">
+                        <div class="buttons">
+                          <a class="button is-light">
+                            Log in
+                          </a> 
+                          <a class="button is-primary">
+                            <strong>Sign up</strong>
+                          </a>
+                        </div>
+                    </div>
+              <!-- </div> -->
+
+            </div>
+          </div>
+      
+          <!-- <div class="navbar-end"> -->
+
+          <!-- </div> -->
+        </div>
+      </nav>
 
 <style>
-body {
+    navbar-items {
+        width: 20%;
+    }
+    navbar-items > .buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+    /* .navbar {
+        width: 100%;
+        background-color: white;
+        height: 100px;
+    } */
+/* body {
     position: relative;
     width: 100%;
     height: 100%;
@@ -31,10 +112,11 @@ body {
     list-style: none;
     font-size: 20px;
     padding-top: 16px;    
-}
-ul > li:hover {
-    text-decoration-style: none;
-}
+    text-decoration: none;
+} */
+/* .navItem:hover {
+    text-decoration: none;
+} */
 
 
 </style>
