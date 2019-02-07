@@ -11,6 +11,7 @@ var createRouter = require('./routes/create');
 var viewRouter = require('./routes/view');
 var updateRouter = require('./routes/update');
 var deleteRouter = require('./routes/delete');
+// var signinRouter = require('./routes/log-on');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -33,7 +34,7 @@ app.use('/create', createRouter);
 app.use('/view', viewRouter);
 app.use('/update', updateRouter);
 app.use('/delete', deleteRouter);
-  
-//app listen on this port
+
+
 module.exports = app;
 app.listen(8080);
