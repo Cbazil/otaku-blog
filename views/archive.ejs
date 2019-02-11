@@ -44,15 +44,15 @@
                         </div>
                     </a>
 
-                    <% pokemon.pokemon.forEach(function(poke){ %>
-                        <a href="/view/<%-poke.id %>">
+                    <% posts.posts.forEach(function(post){ %>
+                        <a href="/view/<%-post.id %>">
                             <div class="col-xs-6 col-md-2">
                                 <div class="panel panel-default">
                                     <div class="panel-body">
-                                        <img src="<%-poke.image %>">
+                                        <img src="<%-post.image %>">
                                     </div>
                                     <div class="panel-footer">
-                                        <%-poke.name %>
+                                        <%-post.name %>
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@
 
         </div>
         <div class="panel-footer text-center">
-            <p>All rights reserved 2018 | Nate.</p>
+            <p>All rights reserved 2018 | Cbazil.</p>
         </div>
     </div>
 </div>
