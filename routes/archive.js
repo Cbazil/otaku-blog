@@ -18,7 +18,7 @@ router.get('/', function (req, res, next) {
         message: false,
     }
 
-    res.render('archieve', data);
+    res.render('archive', data);
 
 });
 
