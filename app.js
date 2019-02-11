@@ -11,6 +11,7 @@ var createRouter = require('./routes/create');
 var viewRouter = require('./routes/view');
 var updateRouter = require('./routes/update');
 var deleteRouter = require('./routes/delete');
+var archieveRouter = require('./routes/archieve');
 // var signinRouter = require('./routes/log-on');
 
 // view engine setup
@@ -34,6 +35,7 @@ app.use('/create', createRouter);
 app.use('/view', viewRouter);
 app.use('/update', updateRouter);
 app.use('/delete', deleteRouter);
+app.use('/archieve', archieveRouter);
 
 
 module.exports = app;
