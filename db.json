@@ -36,11 +36,6 @@
       "image": "https://cdn.bulbagarden.net/upload/thumb/4/4e/115Kangaskhan.png/250px-115Kangaskhan.png"
     },
     {
-      "id": 8,
-      "name": "Gyarados",
-      "image": "https://cdn.bulbagarden.net/upload/thumb/4/41/130Gyarados.png/250px-130Gyarados.png"
-    },
-    {
       "id": 9,
       "name": "Eevee",
       "image": "https://cdn.bulbagarden.net/upload/thumb/e/e2/133Eevee.png/250px-133Eevee.png"
@@ -54,6 +49,13 @@
       "name": "Drampa",
       "image": "https://img.pokemondb.net/artwork/drampa.jpg",
       "id": 11
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin"
     }
   ]
 }

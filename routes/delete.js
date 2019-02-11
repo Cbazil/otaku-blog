@@ -20,7 +20,7 @@ router.get('/:pokeId', function(req, res, next) {
             message: 'Successfully Removed.',
         }
 
-        res.redirect('..');
+        res.redirect('/archive');
     });
 });
 
