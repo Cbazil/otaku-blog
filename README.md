@@ -62,5 +62,6 @@ Install Text editor.
  Tools needed.. Mock database, and api.. you can use a json server.. that saves the json file ... some jquery, bootstrap and bulma
 
  Google fonts, Beautiful colors
+## View App here: https://otaku-blog.herokuapp.com/
 
 ## &copy; ALL RIGHTS RESERVED 2019, Made by Cbazil
