@@ -54,6 +54,7 @@
   "users": [
     {
       "id": "1",
+      "avatar": "https://i.imgur.com/tZfA3CJ.png",
       "username": "admin",
       "password": "admin"
     }
