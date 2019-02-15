@@ -13,8 +13,8 @@ var updateRouter = require('./routes/update');
 var deleteRouter = require('./routes/delete');
 var archiveRouter = require('./routes/archive');
 var log_onRouter = require('./routes/log_on');
+var registerRouter = require('./routes/register');
 
-// var signinRouter = require('./routes/log-on');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -39,6 +39,7 @@ app.use('/update', updateRouter);
 app.use('/delete', deleteRouter);
 app.use('/archive', archiveRouter);
 app.use('/log_on', log_onRouter);
+app.use('/register', registerRouter);
 
 
 module.exports = app;

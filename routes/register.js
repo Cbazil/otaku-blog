@@ -6,7 +6,7 @@ var request = require("request");
 /* GET Log on page. */
  router.get('/', function(req, res) {
 
-  res.render('log_on');
+  res.render('register');
 
  });
 
