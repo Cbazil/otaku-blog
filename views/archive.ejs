@@ -12,12 +12,27 @@
         img { width: 100%; height: 100%;}
         .post-grid {
             display: grid;
-            grid-template-columns: 2fr 3fr;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            float: left;
+        }
+        .post-grid:before {
+            content: none;
+
+        }
+        .post-grid:after {
+            content: none;            
         }
         .panel-heading > img {
             width: 5%;
             height: 5%;
         }
+        /* .panel-heading > img:before {
+            content: none;
+        }
+        .panel-heading > img:after{
+            content: none;
+        } */
     </style>
 
 </head>
