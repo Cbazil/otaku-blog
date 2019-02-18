@@ -9,7 +9,7 @@
 
     <style>
         body { padding-top:15px; background-color: #ccc;}
-        img { width: 100%; height: 100%;}
+        img { width: 200px; height: 200px; margin: 0;}
         .post-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -23,6 +23,9 @@
         .post-grid:after {
             content: none;            
         }
+        .user_dt {
+            text-align: right;
+        }
         .panel-heading > img {
             width: 5%;
             height: 5%;
@@ -33,6 +36,23 @@
         .panel-heading > img:after{
             content: none;
         } */
+        .post-txt {
+            color: black;
+        }
+        .post-txt > h2 {
+        font-size: 20px;
+        }
+        .post-txt > p{
+        font-size: 14px; 
+        }
+        .desc {
+            color: black;
+            padding: 5px;
+        }
+        .desc > p {
+        font-size: 14px;
+        }
+        
     </style>
 
 </head>
@@ -70,16 +90,21 @@
                         <a href="/view/<%-post.id %>">
                             <div class="col-xs-1 col-md-6">
                                 <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <img src="<%-post.avatar %>"><%-post.name %>
+                                    <div class="panel-heading user_dt">
+                                        <%-post.name %><img src="<%-post.avatar %>">
                                     </div>
                                     <div class="panel-body post-grid">
                                         <div class="panel post-imgg"><img src="<%-post.image %>"></div>
-                                        <div class="panel post-txt"><%-post.text %></div>
+                                        <div class="panel-heading post-txt">
+                                            <h2><strong><%-post.aniName %></strong></h2>
+                                            <hr>
+                                            <p><strong>Genre:</strong> <%-post.genre %></p>
+                                            <p><strong>Author:</strong> <%-post.author %></p>
+                                        </div>
                                     </div>
-                                    <!-- <div class="panel-footer">
-                                        <%-post.name %>
-                                    </div> -->
+                                    <div class="panel desc">
+                                        <%-post.description %>
+                                    </div>
                                 </div>
                             </div>
                         </a>

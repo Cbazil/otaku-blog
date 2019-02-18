@@ -4,71 +4,41 @@
       "id": 1,
       "avatar": "https://i.imgur.com/tZfA3CJ.png",
       "name": "Charizard",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "image": "https://cdn.bulbagarden.net/upload/7/7e/006Charizard.png"
+      "aniName": "One Piece",
+      "genre": " Action, Adventure, Comedy, Drama, Fantasy, Manga, Martial Arts, Mystery, Shounen",
+      "description": "Greatness, Glory, Gold. A Pirate Named Gold Roger also known as the Pirate King has conquered this all. He was executed with an unknown reason but before he died he had revealed his last word about The legendary Treasure named One Piece which was hidden in the Grand Line. 22 years after his Death, A Pirate named Monkey D. Luffy appeared and has only one Goal, To Become the Next 'Pirate King' and Find The Treasure 'One Piece'. This Start The Never Ending Adventure. Monkey D. Luffy, inspired by his childhood hero 'Red-Haired' Shanks, sets out on a journey to find the legendary treasure One Piece, to become the new Pirate King, and after eating the devil's fruit gains the power to do so. To accomplish this, he must reach the end of the most deadly and dangerous ocean: The Grand Line. But first he must find a crew.\n During the course of the story, the crew contend with both other less moral pirate crews and the Marines. The latter are the subordinates of the World Government, who seek justice by ending the Golden Age of Pirates. Many background story elements involve the delicate balance of power between the World Government and the world's most powerful pirate crews. Also, the Craziest Crew in the world .",
+      "author": "Oda Eiichiro",
+      "image": "https://i.imgur.com/NvSxMR9.jpg"
     },
     {
       "id": 2,
       "avatar": "https://i.imgur.com/tZfA3CJ.png",
       "name": "Squirtle",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "image": "https://cdn.bulbagarden.net/upload/thumb/3/39/007Squirtle.png/250px-007Squirtle.png"
+      "aniName": "Naruto",
+      "genre": "Action, Adventure, Comedy, Drama, Fantasy, Manga, Martial Arts, Shounen",
+      "description": "Twelve years before the events at the focus of the series, the nine-tailed demon fox attacked Konohagakure. It was a powerful demon fox; a single swing of one of its nine tails would raise tsunamis and flatten mountains. It raised chaos and slaughtered many people, until the leader of the Leaf Village - the Fourth Hokage - defeated it by sacrificing his own life to seal the demon inside a newly-born child. That child's name was Naruto Uzumaki.",
+      "author": "Kishimoto Masashi",
+      "image": "https://i.imgur.com/BHMjVCj.jpg"
     },
     {
       "id": 3,
       "avatar": "https://i.imgur.com/tZfA3CJ.png",
       "name": "Butterfree",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "image": "https://cdn.bulbagarden.net/upload/thumb/d/d1/012Butterfree.png/250px-012Butterfree.png"
+      "aniName": "Bleach",
+      "genre": "Action, Adventure, Comedy, Drama, Fantasy, Manga, Shounen, Supernatural",
+      "description": "Ichigo Kurosaki has always been able to see ghosts, but this ability doesn't change his life nearly as much as his close encounter with Rukia Kuchiki, a soul reaper and member of the mysterious Soul Society. While fighting a hollow, an evil spirit that preys on humans who display spiritual energy, Rukia attempts to lend Ichigo some of her powers so that he can save his family; but much to her surprise, Ichigo absorbs every last drop of her energy. Now a full-fledged soul reaper himself, Ichigo quickly learns that the world he inhabits is one full of dangerous spirits and, along with Rukia, it's Ichigo's job to protect the innocent from hollows and help the spirits themselves find peace. In 2005, Bleach was awarded the Shogakukan Manga Award in the shounen category.",
+      "author": "Kubo Tite",
+      "image": "https://i.imgur.com/uxKVmjB.jpg"
     },
     {
       "id": 4,
       "avatar": "https://i.imgur.com/tZfA3CJ.png",
       "name": "Pikachu",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "image": "https://cdn.bulbagarden.net/upload/thumb/0/0d/025Pikachu.png/250px-025Pikachu.png"
-    },
-    {
-      "id": 5,
-      "avatar": "https://i.imgur.com/tZfA3CJ.png",
-      "name": "Arcanine",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "image": "https://cdn.bulbagarden.net/upload/thumb/b/b8/059Arcanine.png/250px-059Arcanine.png"
-    },
-    {
-      "id": 6,
-      "avatar": "https://i.imgur.com/tZfA3CJ.png",
-      "name": "Gengar",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "image": "https://cdn.bulbagarden.net/upload/thumb/c/c6/094Gengar.png/250px-094Gengar.png"
-    },
-    {
-      "id": 7,
-      "avatar": "https://i.imgur.com/tZfA3CJ.png",
-      "name": "Kangaskhan",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "image": "https://cdn.bulbagarden.net/upload/thumb/4/4e/115Kangaskhan.png/250px-115Kangaskhan.png"
-    },
-    {
-      "id": 9,
-      "avatar": "https://i.imgur.com/tZfA3CJ.png",
-      "name": "Eevee",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "image": "https://cdn.bulbagarden.net/upload/thumb/e/e2/133Eevee.png/250px-133Eevee.png"
-    },
-    {
-      "id": 10,
-      "avatar": "https://i.imgur.com/tZfA3CJ.png",
-      "name": "Mewtwo",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "image": "https://cdn.bulbagarden.net/upload/thumb/7/78/150Mewtwo.png/250px-150Mewtwo.png"
-    },
-    {
-      "name": "Drampa",
-      "avatar": "https://i.imgur.com/tZfA3CJ.png",
-      "image": "https://img.pokemondb.net/artwork/drampa.jpg",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "id": 11
+      "aniName": "Log Horizon",
+      "genre": "Fantasy, Isekai, Shounen",
+      "description": "How would you react if one day you were sucked into an MMORPG and could never get out? After a mysterious incident, roughly 30,000 players from Japan are now forced to live their life inside the MMORPG 'Ender Tales' and can not log out. Even death is met with a respawn. Even worse is the fact that food has absolutely no taste. All this combined, many of the players inside this MMO has lost any will to actually play this game, but they are never allowed to leave. A player named Shiro will venture forth to uncover the mystery behind the reason why they are inside this game.",
+      "author": "Touno Mamare, HARA Kazuhiro",
+      "image": "https://i.imgur.com/HSRsZnX.jpg"
     }
   ],
   "users": [
