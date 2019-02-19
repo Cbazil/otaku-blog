@@ -26,8 +26,11 @@ router.post('/:postId', function(req, res, next) {
     uri: "http://localhost:8000/posts/"+ req.params.postId,
     method: "PATCH",
     form: {
-        name: req.body.name,
+        aniName: req.body.aniName,
         image: req.body.image_url,
+        genre: req.body.genre,
+        author: req.body.author,
+        description: req.body.description,
     }
     }, function(error, response, body) {
         // console.log(body);

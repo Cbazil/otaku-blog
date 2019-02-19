@@ -6,9 +6,12 @@
       "name": "Charizard",
       "aniName": "One Piece",
       "genre": " Action, Adventure, Comedy, Drama, Fantasy, Manga, Martial Arts, Mystery, Shounen",
-      "description": "Greatness, Glory, Gold. A Pirate Named Gold Roger also known as the Pirate King has conquered this all. He was executed with an unknown reason but before he died he had revealed his last word about The legendary Treasure named One Piece which was hidden in the Grand Line. 22 years after his Death, A Pirate named Monkey D. Luffy appeared and has only one Goal, To Become the Next 'Pirate King' and Find The Treasure 'One Piece'. This Start The Never Ending Adventure.",
+      "description": "<span style=\"background-color: rgb(156, 0, 255);\">Greatness, Glory, Gold. A Pirate Named Gold Roger also known as the Pirate King has conquered this all. He was executed with an unknown reason but before he died he had revealed his last word about The legendary Treasure named One Piece which was hidden in the Grand Line. 22 years after his Death, A Pirate named Monkey D. Luffy appeared and has only one Goal, To Become the Next 'Pirate King' and Find The Treasure 'One Piece'. This Start The Never Ending Adventure. </span>",
       "author": "Oda Eiichiro",
-      "image": "https://i.imgur.com/NvSxMR9.jpg"
+      "image": "https://i.imgur.com/NvSxMR9.jpg",
+      "image[0]": "https://i.imgur.com/NvSxMR9.jpg",
+      "image[1]": " Action, Adventure, Comedy, Drama, Fantasy, Manga, Martial Arts, Mystery, Shounen",
+      "image[2]": "Oda Eiichiro"
     },
     {
       "id": 2,

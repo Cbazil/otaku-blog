@@ -11,13 +11,19 @@
         body { padding-top:15px; background-color: #ccc;}
         img { width: 100%;}
     </style>
+              <meta charset="UTF-8">
+              <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
+              <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script> 
+              <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script> 
+              <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote.css" rel="stylesheet">
+              <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote.js"></script>
 </head>
 <body>
 
     <div class="container">
         <div class="panel panel-danger">
             <div class="panel panel-heading text-center">
-                <h1>It's Update A Hero Time.</h1>
+                <h1>Update Post</h1>
             </div>
             <div class="panel-body" id="all">
 
@@ -30,13 +36,26 @@
                 <form method="POST" action="">
 
                     <div class="form-group col-xs-12 col-sm-6 col-sm-offset-3">
-                        <label for="exampleInputName">Hero Name</label>
-                        <input type="text" class="form-control" id="exampleInputName" aria-describedby="heroName" placeholder="Enter Hero Name" name="name" value="<%= post.name %>">
+                        <label for="exampleInputName">Anime name</label>
+                        <input type="text" class="form-control" id="exampleInputName" aria-describedby="heroName" placeholder="Enter Hero Name" name="aniName" value="<%= post.aniName %>">
                         <!-- <small id=heroName" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
                     </div>
                     <div class="form-group col-xs-12 col-sm-6 col-sm-offset-3">
-                        <label for="exampleInputURL">Image URL</label>
+                        <label for="exampleInputURL">Cover URL link</label>
                         <input type="text" class="form-control" id="exampleInputURL" placeholder="Link to hero image" name="image_url" value="<%= post.image %>">
+                    </div>
+                    <div class="form-group col-xs-12 col-sm-6 col-sm-offset-3">
+                        <label for="exampleInputURL">Genres:</label>
+                        <input type="text" class="form-control" id="exampleInputURL" placeholder="Link to hero image" name="image_url" value="<%= post.genre %>">
+                    </div>
+                    <div class="form-group col-xs-12 col-sm-6 col-sm-offset-3">
+                        <label for="exampleInputURL">Author:</label>
+                        <input type="text" class="form-control" id="exampleInputURL" placeholder="Link to hero image" name="image_url" value="<%= post.author %>">
+                    </div>
+                    <div class="form-group col-xs-12 col-sm-6 col-sm-offset-3">
+                        <label for="exampleInputURL">Description</label>
+                        <!-- <input type="text" class="form-control" id="exampleInputURL" placeholder="Link to hero image" name="image_url" value="<%= post.description %>"> -->
+                        <textarea id="summernote" name="description"><%= post.description %> </textarea>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-sm-offset-3">
                         <button type="submit" class="btn btn-success btn-block">Add Hero</button>
@@ -50,6 +69,10 @@
             </div>
         </div>
     </div>
-
+    <script>
+            $(document).ready(function() {
+                $('#summernote').summernote();
+            });
+    </script>
 </body>
 </html>
