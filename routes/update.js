@@ -1,29 +1,29 @@
 var express = require('express');
 var router = express.Router();
-var Pokemon = require('../db.json');
+var Posts = require('../db.json');
 var request = require("request");
 
 /* GET create page. */
-router.get('/:pokeId', function(req, res, next) {
+router.get('/:postId', function(req, res, next) {
 
     //make a post request to our database
     request({
-    uri: "http://localhost:8000/pokemon/" + req.params.pokeId,
+    uri: "http://localhost:8000/posts/" + req.params.postId,
     method: "GET",
     }, function(error, response, body) {
         console.log(JSON.parse(body));
         //send a response message
-        res.render('update', {message: false, poke: JSON.parse(body)});
+        res.render('update', {message: false, post: JSON.parse(body)});
     });
   
 });
 
-router.post('/:pokeId', function(req, res, next) {
+router.post('/:postId', function(req, res, next) {
 
     // console.log(req.body)
     //make a post request to our database
     request({
-    uri: "http://localhost:8000/pokemon/"+ req.params.pokeId,
+    uri: "http://localhost:8000/posts/"+ req.params.postId,
     method: "PATCH",
     form: {
         name: req.body.name,
@@ -32,7 +32,7 @@ router.post('/:pokeId', function(req, res, next) {
     }, function(error, response, body) {
         // console.log(body);
         //send a response message
-        res.render('update', {message: 'Successfully Added.', poke: JSON.parse(body)});
+        res.render('update', {message: 'Successfully Added.', post: JSON.parse(body)});
     });
 })
 
